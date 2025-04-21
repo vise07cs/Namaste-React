@@ -1,19 +1,33 @@
-const heading= React.createElement(
-  "h1",
-  {id:"heading", className:"heading"},  // props object
 
-  "Hello World from React JS");  //children
-
-   const root=ReactDOM.createRoot(document.getElementById("root"));
-
-   root.render(heading) // 
-
-
-
-   console.log(heading); // React element , we will see the object in the console
-    
+  const parent= React.createElement(
+    "div",
+    {id:"parent", className:"parent"},
+    React.createElement("h1", {id:"child1", }, " I am Child 1"),
+    React.createElement("h1", {id:"child2", }, "I am Child 2"),
+    React.createElement("h1", {id:"child3",}, "I am Child 3")
+  );
+  const root=ReactDOM.createRoot(document.getElementById("root"));
+  root.render(parent) // 
 
 
+  // The above code creates a parent div with three child h1 elements using React's `createElement` method.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   //  Code Explanation:
 
   // line 1
