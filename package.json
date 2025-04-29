@@ -1,0 +1,32 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is namaste react by aksahya saini",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vise07cs/Namaste-React.git"
+  },
+  "keywords": [
+    "react",
+    "namaste",
+    "react",
+    "vikram",
+    "singh"
+  ],
+  "author": "vikram singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vise07cs/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/vise07cs/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
