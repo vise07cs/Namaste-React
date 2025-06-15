@@ -32,7 +32,7 @@
   width: 210px;
   border: 1px solid black;
 
-  background: rgb(255, 255, 68);
+  background: hsl(51, 100%, 56%);
   
   
   
@@ -63,4 +63,10 @@
 
 .search{
   padding: 10px;
+}
+
+
+.filter-btn{
+  margin: 10px;
+  cursor: pointer;
 }
