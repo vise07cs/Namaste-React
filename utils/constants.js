@@ -6,3 +6,4 @@ export const LOGO_URL="https://images-platform.99static.com/PqkxPzdIGHYlwJzMzFSL
 
 
 
+export const RESTAURANT_API_URL="https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=25.770278&lng=87.487325&restaurantId=";
